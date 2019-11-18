@@ -15,4 +15,11 @@ server:
 spring:
   profiles: item2
 server:
-  port: 8002            
+  port: 8002   
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh
+         
